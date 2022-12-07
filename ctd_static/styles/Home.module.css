@@ -1,0 +1,352 @@
+.container {
+  padding: 0 1.5rem;
+}
+.header {
+  width: 100%;
+  height: 10px;
+  background: rgba(69, 191, 4, 1);
+  position: fixed;
+  z-index: 1;
+}
+
+.logo_image {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.headerTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #0b0b0b;
+}
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stepper {
+  width: 90%;
+  height: 640px;
+  position: relative;
+  margin: 110px 20px;
+}
+.hand_div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.handImage {
+  position: relative;
+  width: 90%;
+  height: 588.69px;
+  left: 2%;
+}
+
+.goals_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.butterfly_container {
+  width: 17px;
+  height: 14px;
+  position: relative;
+  left: 6%;
+}
+.goals_tittle {
+  width: 100%;
+  height: 49px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #0b0b0b;
+}
+.goal_image {
+  width: 100%;
+  height: 642px;
+  position: relative;
+  top: 100px;
+}
+.footer_container {
+  background: url(../images/Footer.png) no-repeat;
+  position: relative;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 2;
+  background-color: rgba(194, 242, 184, 1);
+  width: 100%;
+  height: 30rem;
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+
+  gap: 10px;
+  padding-left: 40%;
+}
+.footericon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.icontext {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 61px;
+  /* or 218% */
+
+  text-align: center;
+
+  color: #339300;
+}
+@media (min-width: 601px) {
+  .hand_mobileimage {
+    display: none;
+  }
+  .goal_mobileimage {
+    display: none;
+  }
+}
+/* *************************mobile res */
+@media (max-width: 600px) {
+  .headerTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #0b0b0b;
+    width: 100%;
+    width: 100%;
+  }
+  .stepper {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 10px 0px;
+    left: 14.45px;
+    top: -54px;
+  }
+  .handImage {
+    display: none;
+  }
+  .hand_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+  }
+  .hand_mobileimage {
+    position: relative;
+    width: 93%;
+    height: 400px;
+    left: 10%;
+    top: -140px;
+  }
+  .goal_image {
+    display: none;
+  }
+  .goals_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .goals_tittle {
+    width: 100%;
+    height: 49px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #0b0b0b;
+  }
+  .goal_mobileimage {
+    /* padding: 5px; */
+    margin-top: 20px;
+  }
+  .goals_imagecontainer {
+    width: 350px;
+    height: 489px;
+    position: relative;
+  }
+
+  .goals_imagecontainer3 {
+    width: 180px;
+    height: 489px;
+    position: relative;
+  }
+
+  .footer_container {
+    background: url(../images/FooterMobile.png) no-repeat;
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 2;
+    background-color: rgba(194, 242, 184, 1);
+    width: 100%;
+    height: 35rem;
+    margin-top: 20%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0%;
+    padding: 10px;
+  }
+  .footericon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .icontext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #339300;
+  }
+}
+
+/* *******************************1500************** */
+@media (min-width: 1400px) and (max-width: 2000px) {
+  .handImage {
+    position: relative;
+    width: 80%;
+    height: 688.69px;
+    left: 2%;
+  }
+  .footer_container {
+    background: url(../images/Footer.png) no-repeat;
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 2;
+    background-color: rgba(194, 242, 184, 1);
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+    margin-top: 15%;
+  }
+  .footericon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40%;
+  }
+  .icontext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 61px;
+    /* or 218% */
+
+    text-align: center;
+
+    color: #339300;
+  }
+}
+@media (min-width: 2001px) and (max-width: 3200px) {
+  .handImage {
+    position: relative;
+    width: 70%;
+    height: 888px;
+  }
+  .footer_container {
+    background: url(../images/Footer.png) no-repeat;
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 2;
+    background-color: rgba(194, 242, 184, 1);
+    width: 100%;
+    height: 50rem;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footericon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    padding-left: 50%;
+  }
+  .icontext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 61px;
+    /* or 218% */
+
+    text-align: center;
+
+    color: #339300;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
