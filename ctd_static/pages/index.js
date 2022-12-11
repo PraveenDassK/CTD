@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import CTDLOGO from "../images/CTD_logo 1.svg";
+import CTDLOGO from "../images/CTD_Logo1.svg";
 import CTDStepper from "../images/CTDStepper.svg";
 import CTDHand from "../images/CTDHand.svg";
 import CTDMOBILEHAND from "../images/CTDHANDMOBILE.svg";
