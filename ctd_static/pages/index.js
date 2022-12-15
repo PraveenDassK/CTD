@@ -6,10 +6,10 @@ import CTDStepper from "../images/CTDStepper.svg";
 import CTDHand from "../images/CTDHand.svg";
 import CTDMOBILEHAND from "../images/CTDHANDMOBILE.svg";
 import Butterfly from "../images/Butterfly.svg";
-import GoalImage from "../images/GoalImage.svg";
-import MobilGoals1 from "../images/MobileGoal1.svg";
-import MobileGoal2 from "../images/MobileGoal2.svg";
-import MobileGoal3 from "../images/MobileGoal3.svg";
+import GoalImage from "../images/GoalsLap.svg";
+import MobilGoals1 from "../images/IMG1.svg";
+import MobileGoal2 from "../images/IMG2.svg";
+import MobileGoal3 from "../images/IMG3.svg";
 import MobileImage from "../images/Footer/PhoneImage.svg";
 import MailImage from "../images/Footer/MailImage.svg";
 import LocationImage from "../images/Footer/Location.svg";
@@ -48,13 +48,13 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.goal_image}>
-            <Image src={GoalImage} layout="fill" />
+            <Image src={GoalImage} layout="fill" alt="Picture of the golas" />
           </div>
           <div className={styles.goal_mobileimage}>
             <div className={styles.goals_imagecontainer}>
               <Image src={MobilGoals1} layout="fill" />
             </div>
-            <div className={styles.goals_imagecontainer}>
+            <div className={styles.goals_imagecontainer2}>
               <Image src={MobileGoal2} layout="fill" />
             </div>
             <div className={styles.goals_imagecontainer3}>
