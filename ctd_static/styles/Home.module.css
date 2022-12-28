@@ -1,3 +1,6 @@
+.body{
+  background: #EBF9E8;
+}
 .container {
   padding: 0 1.5rem;
 }
@@ -39,6 +42,21 @@
   height: 640px;
   position: relative;
   margin: 110px 20px;
+}
+/* .stepper img{
+ 
+} */
+.calculate_link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 26px;
+  color: #2d88ff;
+  text-decoration: underline;
+  position: absolute;
+  top: 9.6%;
+  right: 39%;
+  z-index: 5;
 }
 .hand_div {
   display: flex;
@@ -358,3 +376,156 @@
     filter: invert(1);
   }
 }
+
+@media (min-width: 280px) {
+  .calculate_link {
+    font-size: 0.35rem;
+    top: 32.4%;
+    right: 44%;
+  }
+}
+@media (min-width: 320px) {
+  .calculate_link {
+    font-size: 0.4rem;
+    top: 30.1%;
+    right: 44%;
+  }
+}
+@media (min-width: 360px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 27.6%;
+    right: 44%;
+  }
+}
+@media (min-width: 375px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 26.6%;
+    right: 44%;
+  }
+}
+
+@media (min-width: 390px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 25.7%;
+    right: 43.8%;
+  }
+}
+@media (min-width: 393px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 25.4%;
+    right: 43.8%;
+  }
+}
+@media (min-width: 411px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 24.3%;
+    right: 43.8%;
+  }
+}
+@media (min-width: 414px) {
+  .calculate_link {
+    font-size: 0.5rem;
+    top: 24.3%;
+    right: 44%;
+  } 
+}
+@media (min-width: 512px) {
+  .calculate_link {
+    font-size: 0.7rem;
+    top: 18%;
+    right: 44%;
+  }
+}
+@media (min-width: 540px) {
+  .calculate_link {
+    font-size: 0.7rem;
+    top: 16.45%;
+    right: 43.5%;
+  }
+}
+@media (min-width: 653px) {
+  .calculate_link {
+    font-size: 0.75rem;
+    top: 27%;
+    right: 43.5%;
+  }
+}
+
+@media (min-width: 712px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 24.65%;
+    right: 43.7%;
+  }
+}
+@media (min-width: 717px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 24.65%;
+    right: 43.7%;
+  }
+}
+@media (min-width: 720px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 24.55%;
+    right: 44%;
+  }
+}
+@media (min-width: 768px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 23%;
+    right: 43.5%;
+  }
+}
+@media (min-width: 800px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 21.8%;
+    right: 43.8%;
+  }
+}
+
+@media (min-width: 820px) {
+  .calculate_link {
+    font-size: 1rem;
+    top: 21.45%;
+    right: 43.8%;
+  }
+}
+@media (min-width: 912px) {
+  .calculate_link {
+    font-size: 1.2rem;
+    top: 18%;
+    right: 43.6%;
+  }
+}
+@media (min-width: 1024px) {
+  .calculate_link {
+    font-size: 1.2rem;
+    top: 14%;
+    right: 43.8%;
+  }
+}
+@media (min-width: 1280px) {
+  .calculate_link {
+    font-size: 1.55rem;
+    top: 5.1%;
+    right: 43.55%;
+  }
+}
+@media (min-width: 1903px) {
+  .calculate_link {
+    font-size: 1.55rem;
+    top: 1.1%;
+    right: 45.35%;
+  }
+}
+
+
