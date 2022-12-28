@@ -527,5 +527,10 @@
     right: 45.35%;
   }
 }
+@media (min-width: 290px) and (max-width: 375px) {
+  .goals_imagecontainer{
+    margin-top: 100px;
+  }
+}
 
 
