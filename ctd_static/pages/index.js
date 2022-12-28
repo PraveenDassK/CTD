@@ -16,7 +16,7 @@ import LocationImage from "../images/Footer/Location.svg";
 
 export default function Home() {
   return (
-    <>
+    <main className={styles.body}>
       <div className={styles.header}></div>
       <div className={styles.container}>
         <div className={styles.logo_image}>
@@ -29,6 +29,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.stepper}>
+          <a href="https://www.carbonfootprint.com/calculator.aspx" className={styles.calculate_link}>Calculate</a>
           <Image src={CTDStepper} layout="fill" />
         </div>
 
@@ -85,6 +86,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 }
